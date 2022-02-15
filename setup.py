@@ -34,7 +34,7 @@ setup(
 	install_requires = [
 		'conan>=1.7.4',
 		'setuptools',
-		'ue4cli>=0.0.49',
+		'uecli',
 		'wheel'
 	],
 	package_data = {
@@ -46,6 +46,6 @@ setup(
 		]
 	},
 	entry_points = {
-		'ue4cli.plugins': ['conan=conan_ue4cli:__PLUGIN_DESCRIPTOR__']
+		'uecli.plugins': ['conan=conan_ue4cli:__PLUGIN_DESCRIPTOR__']
 	}
 )

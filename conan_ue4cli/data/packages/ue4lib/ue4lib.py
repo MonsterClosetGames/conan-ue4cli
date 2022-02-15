@@ -1,4 +1,4 @@
-from ue4cli import UnrealManagerFactory, PrintingFormat
+from uecli import UnrealManagerFactory, PrintingFormat
 
 class UE4Lib():
     
